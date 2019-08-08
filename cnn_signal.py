@@ -27,7 +27,7 @@ def thresh(img,val):
     return new
 
 img=cv2.imread('flower.jpg',0)
-fil=np.random.randn(5,5)
+
 #sobel_x=1.2*np.array([[1,0,-1],[2,0,-2],[1,0,-1]])
 sobel_x=(1/9)*(np.array([[0.5,1,0,-1,-0.5],
                                [1,2,0,-2,-1],
